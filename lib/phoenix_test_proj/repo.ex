@@ -7,9 +7,9 @@ defmodule PhoenixTestProj.Repo do
   alias PhoenixTestProj.User
 
   def all(User) do
-    [%User{id: "1", name: "Jose", username: "test1", password: "password"},
-     %User{id: "2", name: "Bruce", username: "test2", password: "password"},
-     %User{id: "3", name: "Sam", username: "test3", password: "password"}]
+    [%User{id: "1", name: "Jose Smoze", username: "test1", password: "password"},
+     %User{id: "2", name: "Bruce Stroose", username: "test2", password: "password"},
+     %User{id: "3", name: "Sam The Man", username: "test3", password: "password"}]
   end
 
   def all(_module), do: []
